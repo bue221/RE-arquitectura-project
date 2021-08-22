@@ -5,7 +5,7 @@ class Model:
     def __init__(self):
         self.emailRegex = r'([a-zA-Z0-9._-]+)@([\w]+)\.([a-zA-Z])+'
         self.enteroRegex = r'^[+-]?[0-9]+$'
-        self.realRegex = r'^[+-]?[\d]+\.([\d]*$)'
+        self.realRegex = r'^[+-]?[\d]+\.?([\d]*$)'
         self.notacionCientificaRegex = r'^[+-]?[0-9]*\.?[0-9]+([eE][+-]?[0-9]+)'
 
     def verifyEmail(self, value):
