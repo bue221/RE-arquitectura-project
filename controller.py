@@ -10,6 +10,6 @@ class Controller:
         self.view = View(self.root, self.model)
 
     def run(self):
-        self.root.title("PROYECTO DE I-CORTE")
+        self.root.title("PROYECTO 2 DE I-CORTE")
         self.root.deiconify()
         self.root.mainloop()
